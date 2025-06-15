@@ -1,0 +1,44 @@
+.Pipes {
+  width: calc(100% - 10px);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background-color: transparent;
+  z-index: 2;
+  overflow: hidden;
+
+  .Pipe {
+    width: min(max(50px, 20%), 150px);
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+
+    .PipeTop {
+      top: -60%;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+
+    .Valid{
+      width: 100%;
+      height: 50px;
+      position: absolute;
+      background-color: transparent;
+    }
+
+    .PipeBottom {
+      bottom: -60%;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+
+.Menu{
+  width: fit-content;
+  min-width: 150px;
+  height: fit-content;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: default;
+
+  .Title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Score{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .MenuButton{
+    width: calc(100% - 10px);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+  }
+}
