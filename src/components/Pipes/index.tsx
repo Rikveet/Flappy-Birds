@@ -25,7 +25,7 @@ function Pipe({validFromTop, id, addAPipe, destroy}: { validFromTop: number, id:
                 setNextPipeAdded(true)
                 addAPipe()
             }
-            if (pipePosition > 80) {
+            if (pipePosition > 88) {
                 {
                     if (birdPosition < 100 - validFromTop - 12 || birdPosition > 100 - validFromTop + 12) {
                         dispatch(gameOver())

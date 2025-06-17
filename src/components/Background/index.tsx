@@ -27,8 +27,8 @@ function ImageSlider({src, speedS}: { src: string, speedS: number }) {
                             src={src}
                             alt={'Background Land'}
                             key={`${count} 1`}
-                            initial={{x: '-100%'}}
-                            animate={{x: '100%'}}
+                            initial={{x: '100%'}}
+                            animate={{x: '-100%'}}
 
                             transition={{duration: speedS, ease: 'linear'}}
                 />
@@ -36,16 +36,24 @@ function ImageSlider({src, speedS}: { src: string, speedS: number }) {
                             src={src}
                             alt={'Background Land'}
                             key={`${count} 2`}
-                            initial={{x: '-100%'}}
-                            animate={{x: '100%'}}
+                            initial={{x: '100%'}}
+                            animate={{x: '-100%'}}
                             transition={{duration: speedS, ease: 'linear'}}
                 />
                 <motion.img className={styles.BackgroundImg}
                             src={src}
                             alt={'Background Land'}
                             key={`${count} 3`}
-                            initial={{x: '-100%'}}
-                            animate={{x: '100%'}}
+                            initial={{x: '100%'}}
+                            animate={{x: '-100%'}}
+                            transition={{duration: speedS, ease: 'linear'}}
+                />
+                <motion.img className={styles.BackgroundImg}
+                            src={src}
+                            alt={'Background Land'}
+                            key={`${count} 4`}
+                            initial={{x: '100%'}}
+                            animate={{x: '-100%'}}
                             transition={{duration: speedS, ease: 'linear'}}
                 />
             </div>
